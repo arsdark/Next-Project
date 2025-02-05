@@ -150,6 +150,7 @@ body {
 .wedding,
 .prewed,
 .document,
+.package,
 .contact {
   padding: 8rem 7% 1.4rem;
 }
@@ -158,6 +159,7 @@ body {
 .wedding h2,
 .prewed h2,
 .document h2,
+.package h2,
 .contact h2 {
   text-align: center;
   font-size: 2.6rem;
@@ -168,6 +170,7 @@ body {
 .wedding h2 span,
 .prewed h2 span,
 .document h2 span,
+.package h2 span,
 .contact h2 span {
   color: var(--primary);
 }
@@ -206,12 +209,14 @@ body {
 .wedding h2,
 .prewed h2,
 .document h2,
+.package h2,
 .contact h2 {
   margin-bottom: 1rem;
 }
 .wedding p,
 .prewed p,
 .document p,
+.package p,
 .contact p {
   text-align: center;
   max-width: 30rem;
@@ -223,7 +228,8 @@ body {
 
 .wedding .row,
 .prewed .row,
-.document .row {
+.document .row,
+.package .row {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
@@ -246,7 +252,8 @@ body {
 
 .wedding .row .wedding-price,
 .prewed .row .prewed-price,
-.document .row .document-price {
+.document .row .document-price,
+.package .row .package-price {
   text-align: center;
   border: 2px solid #195e32;
   border-radius: 25%;
@@ -257,7 +264,8 @@ body {
 
 .wedding .row .wedding-price p,
 .prewed .row .prewed-price p,
-.document .row .document-price p {
+.document .row .document-price p,
+.package .row .document-price p {
   margin-top: 1rem;
 }
 
@@ -299,7 +307,7 @@ footer {
   background-color: var(--primary);
   text-align: center;
   padding: 1rem 0 3rem;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 footer .credit {
@@ -385,7 +393,8 @@ footer .credit a {
 
   .wedding p,
   .prewed p,
-  .document p {
+  .document p,
+  .package p {
     font-size: 1.2rem;
   }
 
@@ -415,7 +424,8 @@ footer .credit a {
 
   .wedding .row .wedding-price,
   .prewed .row .prewed-price,
-  .document .row .document-price {
+  .document .row .document-price,
+  .package .row .package-price {
     width: 70%;
   }
 }
